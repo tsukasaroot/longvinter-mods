@@ -1,1 +1,1 @@
-https://github.com/tsukasaroot/longvinter-modtoos/master/mods/minimap/module.json
+https://raw.github.com/tsukasaroot/longvinter-modtoos/master/mods/minimap/module.json
