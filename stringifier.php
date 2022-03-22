@@ -18,5 +18,3 @@ $mods[$argv[1]] = $argv[2];
 $mods = json_encode($mods);
 
 file_put_contents('modules-list.json', $mods);
-
-?>
