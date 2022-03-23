@@ -10,8 +10,11 @@ if ($argc === 2 && $argv[1] === 'view') {
 if ($argc !== 3)
 	exit;
 
-$mods = file_get_contents('modules-list.json');
-$mods = json_decode($mods, true);
+if (file_exists('modules-list.json')) {
+	$mods = file_get_contents('modules-list.json');
+	$mods = json_decode($mods, true);
+}
+
 
 $mods[$argv[1]] = $argv[2];
 
